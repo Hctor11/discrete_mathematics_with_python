@@ -3,6 +3,7 @@ print(type(32))
 print(type(2.3))
 print(type(True))
 print(type("hola"))
+
 '''
 un tipo entero se refiere a un numero entero ya sea positivo, negativo o cero,
 un float es un una aproximacion de python a los numeros reales, estos consisten de una parte real y
@@ -27,3 +28,11 @@ b = "H" + a[1:]
 print(b)
 
 print(id(int)) # este id no cambia con respecto al tiempo, ya que es un objeto
+
+'''
+hay que entender de que los objetos solo existen en los tiempos de ejecucion, cuando apagamos nuestra computadora
+este objeto deja su espacio en memoria y se borra, a diferencia de los numeros enteros, un integer es solo una
+instacia de un objeto.
+'''
+
+print(a is b)
